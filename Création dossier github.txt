@@ -1,8 +1,0 @@
-cd C:\UPJV\Web
-git clone https://github.com/p-spoljar/fac.git fac-github
-Copy-Item -Path C:\UPJV\Web\fac\* -Destination C:\UPJV\Web\fac-github -Recurse -Force
-cd C:\UPJV\Web\fac-github
-git status
-git add .
-git commit -m "Publication initiale du site FAC"
-git push
