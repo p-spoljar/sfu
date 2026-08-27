@@ -228,3 +228,69 @@ video {
         font-size: 0.9rem;
     }
 }
+/* ================== Compétences du cours ================== */
+.competencesCours {
+    border-left: 4px solid #d4a017;
+    background-color: #fffaf0;
+    padding: 14px 18px;
+    margin: 1.5em 0 2em;
+    border-radius: 6px;
+}
+
+.competencesCours .PS {
+    margin: 0 0 0.65em 0;
+    font-size: 1.05em;
+    font-style: normal;
+    color: #555;
+}
+
+.competencesCours .PS:last-child {
+    margin-bottom: 0;
+}
+
+/* ================== Liste des cas de TD ================== */
+.listeCas {
+    border: 1px solid #d6e4f5;
+    background-color: #f8fbff;
+    padding: 16px 20px;
+    margin: 1.5em 0 2em;
+    border-radius: 8px;
+}
+
+.listeCas--secondaire {
+    background-color: #fbfbfb;
+}
+
+.cas {
+    margin: 0 0 0.55em 0;
+    padding-bottom: 0.45em;
+    border-bottom: 1px solid #e7edf4;
+    color: #444;
+}
+
+.cas:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+}
+
+.cas a {
+    color: #2c5aa0;
+    text-decoration: none;
+}
+
+.cas a:hover,
+.cas a:focus {
+    text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+    .listeCas,
+    .competencesCours {
+        padding: 12px 14px;
+    }
+
+    .cas {
+        line-height: 1.4;
+    }
+}
